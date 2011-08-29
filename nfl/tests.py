@@ -47,20 +47,8 @@ class SeasonModelTests(TestCase):
 class DivisionModelTests(TestCase):
 
     def test_uses_conference_and_region_as_pk(self):
-        division = models.Division.objects.create(conference="AFC", region="East")
+        division = models.Division.objects.get(conference="AFC", region="East")
         self.assertEqual("AFC-East", division.pk)
-
-    def test_allows_north_south_east_west_as_valid_regions(self):
-        division1 = models.Division.objects.create(conference="AFC", region="North")
-        division2 = models.Division.objects.create(conference="AFC", region="South")
-        division3 = models.Division.objects.create(conference="AFC", region="East")
-        division4 = models.Division.objects.create(conference="AFC", region="West")
-        self.assertTrue(True) # If none of the above blew up, it's probably ok
-
-    def test_allows_AFC_and_NFC_as_valid_conferences(self):
-        division1 = models.Division.objects.create(conference="AFC", region="North")
-        division2 = models.Division.objects.create(conference="NFC", region="North")
-        self.assertTrue(True) # If none of the above blew up, it's probably ok
 
 class TeamModelTests(TestCase):
 
