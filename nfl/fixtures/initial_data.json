@@ -1,0 +1,427 @@
+[
+    {
+        "pk": "AFC-North",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:20",
+            "conference": "AFC",
+            "region": "North",
+            "updated_time": "2011-08-28 23:10:20"
+        }
+    }, {
+        "pk": "AFC-South",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:26",
+            "conference": "AFC",
+            "region": "South",
+            "updated_time": "2011-08-28 23:10:26"
+        }
+    }, {
+        "pk": "AFC-East",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:32",
+            "conference": "AFC",
+            "region": "East",
+            "updated_time": "2011-08-28 23:10:32"
+        }
+    }, {
+        "pk": "AFC-West",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:39",
+            "conference": "AFC",
+            "region": "West",
+            "updated_time": "2011-08-28 23:10:39"
+        }
+    }, {
+        "pk": "NFC-North",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:44",
+            "conference": "NFC",
+            "region": "North",
+            "updated_time": "2011-08-28 23:10:44"
+        }
+    }, {
+        "pk": "NFC-South",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:49",
+            "conference": "NFC",
+            "region": "South",
+            "updated_time": "2011-08-28 23:10:49"
+        }
+    }, {
+        "pk": "NFC-East",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:58",
+            "conference": "NFC",
+            "region": "East",
+            "updated_time": "2011-08-28 23:14:24"
+        }
+    }, {
+        "pk": "NFC-West",
+        "model": "nfl.division",
+        "fields": {
+            "created_time": "2011-08-28 23:10:58",
+            "conference": "NFC",
+            "region": "West",
+            "updated_time": "2011-08-28 23:10:58"
+        }
+    }, {
+        "pk": "ARI",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-West",
+            "name": "Arizona",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "ARI",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "ATL",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-South",
+            "name": "Atlanta",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "ATL",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "BAL",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-North",
+            "name": "Baltimore",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "BAL",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "BUF",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-East",
+            "name": "Buffalo",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "BUF",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "CAR",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-South",
+            "name": "Carolina",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "CAR",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "CHI",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-North",
+            "name": "Chicago",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "CHI",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "CIN",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-North",
+            "name": "Cincinnati",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "CIN",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "CLE",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-North",
+            "name": "Cleveland",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "CLE",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "DAL",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-East",
+            "name": "Dallas",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "DAL",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "DEN",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-West",
+            "name": "Denver",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "DEN",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "DET",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-North",
+            "name": "Detroit",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "DET",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "GB",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-North",
+            "name": "Green Bay",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "GB",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "HOU",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-South",
+            "name": "Houston",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "HOU",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "IND",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-South",
+            "name": "Indianapolis",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "IND",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "JAC",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-South",
+            "name": "Jacksonville",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "JAC",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "KC",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-West",
+            "name": "Kansas City",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "KC",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "MIA",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-East",
+            "name": "Miami",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "MIA",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "MIN",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-North",
+            "name": "Minnesota",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "MIN",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "NYG",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-East",
+            "name": "NY Giants",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "NYG",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "NYJ",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-East",
+            "name": "NY Jets",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "NYJ",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "NE",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-East",
+            "name": "New England",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "NE",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "NO",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-South",
+            "name": "New Orleans",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "NO",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "OAK",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-West",
+            "name": "Oakland",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "OAK",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "PHI",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-East",
+            "name": "Philadelphia",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "PHI",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "PIT",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-North",
+            "name": "Pittsburgh",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "PIT",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "SD",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-West",
+            "name": "San Diego",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "SD",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "SF",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-West",
+            "name": "San Francisco",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "SF",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "SEA",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-West",
+            "name": "Seattle",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "SEA",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "STL",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-West",
+            "name": "St. Louis",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "STL",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "TB",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-South",
+            "name": "Tampa Bay",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "TB",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "TEN",
+        "model": "nfl.team",
+        "fields": {
+            "division": "AFC-South",
+            "name": "Tennessee",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "TEN",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }, {
+        "pk": "WAS",
+        "model": "nfl.team",
+        "fields": {
+            "division": "NFC-East",
+            "name": "Washington",
+            "is_active": true,
+            "updated_time": "2011-06-15 18:28:00",
+            "abbr": "WAS",
+            "created_time": "2011-06-15 18:28:00"
+        }
+    }
+]
