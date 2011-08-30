@@ -29,6 +29,14 @@ DATABASES = {
     }
 }
 
+# Don't use this cache backend on production, only for development.
+# https://docs.djangoproject.com/en/dev/topics/cache/?from=olddocs#dummy-caching-for-development
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    }
+}
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.

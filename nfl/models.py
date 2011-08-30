@@ -1,5 +1,6 @@
 
 from django.core.validators import RegexValidator
+from django.core.cache import cache
 from django.db import models
 from django.utils.encoding import force_unicode
 
@@ -26,14 +27,15 @@ class Division(TimestampMixin):
     region = models.CharField(max_length=5, choices=REGIONS)
 
     def __unicode__(self):
-        return u"%s %s" % (self.conference, self.region)
+        return force_unicode("%s %s" % (self.conference, self.region))
 
     def save(self, **kwargs):
         self.primary_key = "%s-%s" % (self.conference, self.region)
         super(Division, self).save(**kwargs)
 
 class Season(TimestampMixin):
-    year = models.CharField(primary_key=True, max_length=4, validators=[RegexValidator(r'^\d{4}$')])
+    year = models.CharField(primary_key=True, max_length=4,
+                            validators=[RegexValidator(r'^\d{4}$')])
     is_active = models.BooleanField()
 
     class Meta(object):
@@ -65,5 +67,10 @@ class Team(TimestampMixin):
 
     @classmethod
     def all_teams(cls):
-        return cls.objects.filter(is_active=True)
+        cache_key = 'all_teams'
+        all_teams = cache.get(cache_key)
+        if all_teams is None:
+            all_teams = list(cls.objects.filter(is_active=True))
+            cache.set(cache_key, all_teams, timeout=2.6*1e6)
+        return all_teams
 

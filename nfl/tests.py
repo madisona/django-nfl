@@ -66,5 +66,6 @@ class TeamModelTests(TestCase):
     def test_all_teams_returns_all_active_teams(self):
         division = models.Division.objects.get(pk="AFC-East")
         models.Team.objects.create(pk="XYZ", name="Fake Team", is_active=False, division=division)
-        all_teams_count = models.Team.all_teams().count()
+        all_teams_count = len(models.Team.all_teams())
         self.assertEqual(32, all_teams_count)
+
