@@ -1,0 +1,3790 @@
+[
+  {
+    "pk": "2011-1", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-09-08 20:30:00", 
+      "season": "2011", 
+      "last_game": "2011-09-12 22:15:00", 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-2", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-09-18 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-09-19 20:30:00", 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-3", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-09-25 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-09-26 20:30:00", 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-4", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-10-02 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-10-03 20:30:00", 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-5", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-10-09 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-10-10 20:30:00", 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-6", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-10-16 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-10-17 20:30:00", 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-7", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-10-23 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-10-24 20:30:00", 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-8", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-10-30 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-10-31 20:30:00", 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-9", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-11-06 13:00:00", 
+      "season": "2011", 
+      "last_game": "2011-11-07 20:30:00", 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-10", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-11-10 20:20:00", 
+      "season": "2011", 
+      "last_game": "2011-11-14 20:30:00", 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-11", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-11-17 20:20:00", 
+      "season": "2011", 
+      "last_game": "2011-11-21 20:30:00", 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-12", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-11-24 12:30:00", 
+      "season": "2011", 
+      "last_game": "2011-11-28 20:30:00", 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-13", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-12-01 20:20:00", 
+      "season": "2011", 
+      "last_game": "2011-12-05 20:30:00", 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-14", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-12-08 20:20:00", 
+      "season": "2011", 
+      "last_game": "2011-12-12 20:30:00", 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-15", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-12-15 20:20:00", 
+      "season": "2011", 
+      "last_game": "2011-12-19 20:30:00", 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-16", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2011-12-22 20:20:00", 
+      "season": "2011", 
+      "last_game": "2011-12-26 20:30:00", 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-17", 
+    "model": "nfl.week", 
+    "fields": {
+      "first_game": "2012-01-01 13:00:00", 
+      "season": "2011", 
+      "last_game": "2012-01-01 16:15:00", 
+      "number": 17, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00"
+    }
+  }, 
+  {
+    "pk": "2011-1-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "NO", 
+      "game_time": "2011-09-08 20:30:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-1-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "ATL", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-1-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "CIN", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-1-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "BUF", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-1-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "PHI", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-1-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "TEN", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-1-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "PIT", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-1-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "IND", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-1-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "DET", 
+      "game_time": "2011-09-11 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-1-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "NYG", 
+      "game_time": "2011-09-11 16:15:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-1-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "CAR", 
+      "game_time": "2011-09-11 16:15:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-1-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "MIN", 
+      "game_time": "2011-09-11 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-1-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "SEA", 
+      "game_time": "2011-09-11 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-1-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "DAL", 
+      "game_time": "2011-09-11 20:20:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-1-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "NE", 
+      "game_time": "2011-09-12 19:00:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-1-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-1", 
+      "away": "OAK", 
+      "game_time": "2011-09-12 22:15:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-2-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "KC", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-2-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "BAL", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-2-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "CLE", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-2-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "OAK", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-2-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "TB", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-2-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "CHI", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-2-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "JAC", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-2-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "SEA", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-2-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "ARI", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-2-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "GB", 
+      "game_time": "2011-09-18 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-2-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "DAL", 
+      "game_time": "2011-09-18 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-2-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "SD", 
+      "game_time": "2011-09-18 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-2-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "CIN", 
+      "game_time": "2011-09-18 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-2-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "HOU", 
+      "game_time": "2011-09-18 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-2-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "PHI", 
+      "game_time": "2011-09-18 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-2-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-2", 
+      "away": "STL", 
+      "game_time": "2011-09-19 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-3-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "NE", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-3-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "SF", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-3-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "MIA", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-3-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "DEN", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-3-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "DET", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-3-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "HOU", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-3-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "NYG", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-3-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "JAC", 
+      "game_time": "2011-09-25 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-3-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "KC", 
+      "game_time": "2011-09-25 16:05:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-3-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "NYJ", 
+      "game_time": "2011-09-25 16:05:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-3-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "BAL", 
+      "game_time": "2011-09-25 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-3-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "ARI", 
+      "game_time": "2011-09-25 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-3-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "ATL", 
+      "game_time": "2011-09-25 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-3-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "GB", 
+      "game_time": "2011-09-25 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-3-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "PIT", 
+      "game_time": "2011-09-25 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-3-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-3", 
+      "away": "WAS", 
+      "game_time": "2011-09-26 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-4-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "CAR", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-4-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "BUF", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-4-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "TEN", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-4-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "DET", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-4-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "WAS", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-4-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "SF", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-4-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "MIN", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-4-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "NO", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-4-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "PIT", 
+      "game_time": "2011-10-02 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-4-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "NYG", 
+      "game_time": "2011-10-02 16:05:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-4-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "ATL", 
+      "game_time": "2011-10-02 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-4-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "MIA", 
+      "game_time": "2011-10-02 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-4-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "DEN", 
+      "game_time": "2011-10-02 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-4-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "NE", 
+      "game_time": "2011-10-02 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-4-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "NYJ", 
+      "game_time": "2011-10-02 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-4-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-4", 
+      "away": "IND", 
+      "game_time": "2011-10-03 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-5-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "PHI", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-5-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "KC", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-5-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "ARI", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-5-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "SEA", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-5-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "TEN", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-5-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "NO", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-5-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "CIN", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-5-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "OAK", 
+      "game_time": "2011-10-09 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-5-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "TB", 
+      "game_time": "2011-10-09 16:05:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-5-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "NYJ", 
+      "game_time": "2011-10-09 16:15:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-5-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "SD", 
+      "game_time": "2011-10-09 16:15:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-5-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "GB", 
+      "game_time": "2011-10-09 20:20:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-5-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-5", 
+      "away": "CHI", 
+      "game_time": "2011-10-10 20:30:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-6-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "CAR", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-6-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "IND", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-6-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "SF", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-6-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "STL", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-6-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "PHI", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-6-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "BUF", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-6-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "JAC", 
+      "game_time": "2011-10-16 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-6-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "HOU", 
+      "game_time": "2011-10-16 16:05:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-6-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "CLE", 
+      "game_time": "2011-10-16 16:05:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-6-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "DAL", 
+      "game_time": "2011-10-16 16:15:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-6-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "NO", 
+      "game_time": "2011-10-16 16:15:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-6-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "MIN", 
+      "game_time": "2011-10-16 20:20:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-6-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-6", 
+      "away": "MIA", 
+      "game_time": "2011-10-17 20:30:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-7-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "SEA", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-7-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "ATL", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-7-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "HOU", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-7-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "DEN", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-7-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "SD", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-7-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "CHI", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-7-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "WAS", 
+      "game_time": "2011-10-23 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-7-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "PIT", 
+      "game_time": "2011-10-23 16:05:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-7-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "KC", 
+      "game_time": "2011-10-23 16:05:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-7-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "GB", 
+      "game_time": "2011-10-23 16:15:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-7-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "STL", 
+      "game_time": "2011-10-23 16:15:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-7-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "IND", 
+      "game_time": "2011-10-23 20:20:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-7-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-7", 
+      "away": "BAL", 
+      "game_time": "2011-10-24 20:30:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-8-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "IND", 
+      "game_time": "2011-10-30 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-8-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "NO", 
+      "game_time": "2011-10-30 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-8-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "MIA", 
+      "game_time": "2011-10-30 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-8-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "MIN", 
+      "game_time": "2011-10-30 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-8-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "ARI", 
+      "game_time": "2011-10-30 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-8-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "JAC", 
+      "game_time": "2011-10-30 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-8-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "WAS", 
+      "game_time": "2011-10-30 16:05:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-8-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "DET", 
+      "game_time": "2011-10-30 16:05:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-8-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "NE", 
+      "game_time": "2011-10-30 16:15:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-8-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "CLE", 
+      "game_time": "2011-10-30 16:15:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-8-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "CIN", 
+      "game_time": "2011-10-30 16:15:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-8-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "DAL", 
+      "game_time": "2011-10-30 20:20:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-8-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-8", 
+      "away": "SD", 
+      "game_time": "2011-10-31 20:30:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-9-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "NYJ", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-9-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "SEA", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-9-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "ATL", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-9-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "MIA", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-9-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "SF", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-9-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "CLE", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-9-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "TB", 
+      "game_time": "2011-11-06 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-9-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "DEN", 
+      "game_time": "2011-11-06 16:05:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-9-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "CIN", 
+      "game_time": "2011-11-06 16:05:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-9-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "NYG", 
+      "game_time": "2011-11-06 16:15:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-9-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "STL", 
+      "game_time": "2011-11-06 16:15:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-9-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "GB", 
+      "game_time": "2011-11-06 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-9-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "BAL", 
+      "game_time": "2011-11-06 20:20:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-9-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-9", 
+      "away": "CHI", 
+      "game_time": "2011-11-07 20:30:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-10-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "OAK", 
+      "game_time": "2011-11-10 20:20:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-10-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "NO", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-10-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "DET", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-10-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "PIT", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-10-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "STL", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-10-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "BUF", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-10-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "JAC", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-10-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "DEN", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-10-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "WAS", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-10-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "ARI", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-10-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "HOU", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-10-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "TEN", 
+      "game_time": "2011-11-13 13:00:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-10-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "BAL", 
+      "game_time": "2011-11-13 16:05:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-10-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "NYG", 
+      "game_time": "2011-11-13 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-10-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "NE", 
+      "game_time": "2011-11-13 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-10-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-10", 
+      "away": "MIN", 
+      "game_time": "2011-11-14 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-11-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "NYJ", 
+      "game_time": "2011-11-17 20:20:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-11-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "TEN", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-11-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "JAC", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-11-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "CAR", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-11-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "TB", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-11-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "BUF", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-11-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "OAK", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-11-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "DAL", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-11-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "CIN", 
+      "game_time": "2011-11-20 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-11-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "ARI", 
+      "game_time": "2011-11-20 16:05:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-11-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "SEA", 
+      "game_time": "2011-11-20 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-11-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "SD", 
+      "game_time": "2011-11-20 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-11-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "PHI", 
+      "game_time": "2011-11-20 20:20:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-11-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-11", 
+      "away": "KC", 
+      "game_time": "2011-11-21 20:30:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-12-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "GB", 
+      "game_time": "2011-11-24 12:30:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-12-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "MIA", 
+      "game_time": "2011-11-24 16:15:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-12-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "SF", 
+      "game_time": "2011-11-24 20:20:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-12-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "MIN", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-12-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "CLE", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-12-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "TB", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-12-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "CAR", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-12-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "ARI", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-12-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "BUF", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-12-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "HOU", 
+      "game_time": "2011-11-27 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-12-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "CHI", 
+      "game_time": "2011-11-27 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-12-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "WAS", 
+      "game_time": "2011-11-27 16:05:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-12-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "NE", 
+      "game_time": "2011-11-27 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-12-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "DEN", 
+      "game_time": "2011-11-27 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-12-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "PIT", 
+      "game_time": "2011-11-27 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-12-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-12", 
+      "away": "NYG", 
+      "game_time": "2011-11-28 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-13-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "PHI", 
+      "game_time": "2011-12-01 20:20:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-13-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "TEN", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-13-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "KC", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-13-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "BAL", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-13-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "OAK", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-13-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "DET", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-13-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "CAR", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-13-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "NYJ", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-13-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "ATL", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-13-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "CIN", 
+      "game_time": "2011-12-04 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-13-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "DEN", 
+      "game_time": "2011-12-04 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-13-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "GB", 
+      "game_time": "2011-12-04 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-13-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "DAL", 
+      "game_time": "2011-12-04 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-13-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "STL", 
+      "game_time": "2011-12-04 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-13-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "IND", 
+      "game_time": "2011-12-04 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-13-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-13", 
+      "away": "SD", 
+      "game_time": "2011-12-05 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-14-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "CLE", 
+      "game_time": "2011-12-08 20:20:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-14-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "HOU", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-14-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "MIN", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-14-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "OAK", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-14-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "NO", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-14-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "PHI", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-14-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "KC", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-14-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "NE", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-14-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "ATL", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-14-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "TB", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-14-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "IND", 
+      "game_time": "2011-12-11 13:00:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-14-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "SF", 
+      "game_time": "2011-12-11 16:05:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-14-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "CHI", 
+      "game_time": "2011-12-11 16:05:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-14-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "BUF", 
+      "game_time": "2011-12-11 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-14-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "NYG", 
+      "game_time": "2011-12-11 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-14-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-14", 
+      "away": "STL", 
+      "game_time": "2011-12-12 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-15-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "JAC", 
+      "game_time": "2011-12-15 20:20:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-15-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "DAL", 
+      "game_time": "2011-12-17 20:20:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TB"
+    }
+  }, 
+  {
+    "pk": "2011-15-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "MIA", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-15-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "SEA", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CHI"
+    }
+  }, 
+  {
+    "pk": "2011-15-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "TEN", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-15-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "GB", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-15-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "CIN", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-15-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "NO", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-15-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "WAS", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-15-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "CAR", 
+      "game_time": "2011-12-18 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-15-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "DET", 
+      "game_time": "2011-12-18 16:05:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-15-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "NE", 
+      "game_time": "2011-12-18 16:15:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }, 
+  {
+    "pk": "2011-15-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "NYJ", 
+      "game_time": "2011-12-18 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-15-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "CLE", 
+      "game_time": "2011-12-18 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-15-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "BAL", 
+      "game_time": "2011-12-18 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SD"
+    }
+  }, 
+  {
+    "pk": "2011-15-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-15", 
+      "away": "PIT", 
+      "game_time": "2011-12-19 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SF"
+    }
+  }, 
+  {
+    "pk": "2011-16-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "HOU", 
+      "game_time": "2011-12-22 20:20:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "IND"
+    }
+  }, 
+  {
+    "pk": "2011-16-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "DEN", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BUF"
+    }
+  }, 
+  {
+    "pk": "2011-16-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "ARI", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-16-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "MIN", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "WAS"
+    }
+  }, 
+  {
+    "pk": "2011-16-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "TB", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CAR"
+    }
+  }, 
+  {
+    "pk": "2011-16-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "CLE", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "BAL"
+    }
+  }, 
+  {
+    "pk": "2011-16-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "JAC", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "TEN"
+    }
+  }, 
+  {
+    "pk": "2011-16-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "OAK", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "KC"
+    }
+  }, 
+  {
+    "pk": "2011-16-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "MIA", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-16-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "NYG", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYJ"
+    }
+  }, 
+  {
+    "pk": "2011-16-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "STL", 
+      "game_time": "2011-12-24 13:00:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PIT"
+    }
+  }, 
+  {
+    "pk": "2011-16-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "SD", 
+      "game_time": "2011-12-24 16:05:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DET"
+    }
+  }, 
+  {
+    "pk": "2011-16-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "SF", 
+      "game_time": "2011-12-24 16:15:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "SEA"
+    }
+  }, 
+  {
+    "pk": "2011-16-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "PHI", 
+      "game_time": "2011-12-24 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DAL"
+    }
+  }, 
+  {
+    "pk": "2011-16-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "CHI", 
+      "game_time": "2011-12-25 20:20:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-16-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-16", 
+      "away": "ATL", 
+      "game_time": "2011-12-26 20:30:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-17-1", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "TB", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 1, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ATL"
+    }
+  }, 
+  {
+    "pk": "2011-17-2", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "BAL", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 2, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CIN"
+    }
+  }, 
+  {
+    "pk": "2011-17-3", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "PIT", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 3, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "CLE"
+    }
+  }, 
+  {
+    "pk": "2011-17-4", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "DET", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 4, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "GB"
+    }
+  }, 
+  {
+    "pk": "2011-17-5", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "SF", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 5, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "STL"
+    }
+  }, 
+  {
+    "pk": "2011-17-6", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "NYJ", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 6, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIA"
+    }
+  }, 
+  {
+    "pk": "2011-17-7", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "CHI", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 7, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "MIN"
+    }
+  }, 
+  {
+    "pk": "2011-17-8", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "BUF", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 8, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NE"
+    }
+  }, 
+  {
+    "pk": "2011-17-9", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "CAR", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 9, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NO"
+    }
+  }, 
+  {
+    "pk": "2011-17-10", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "DAL", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 10, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "NYG"
+    }
+  }, 
+  {
+    "pk": "2011-17-11", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "WAS", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 11, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "PHI"
+    }
+  }, 
+  {
+    "pk": "2011-17-12", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "IND", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 12, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "JAC"
+    }
+  }, 
+  {
+    "pk": "2011-17-13", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "TEN", 
+      "game_time": "2012-01-01 13:00:00", 
+      "is_active": true, 
+      "number": 13, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "HOU"
+    }
+  }, 
+  {
+    "pk": "2011-17-14", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "SEA", 
+      "game_time": "2012-01-01 16:15:00", 
+      "is_active": true, 
+      "number": 14, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "ARI"
+    }
+  }, 
+  {
+    "pk": "2011-17-15", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "SD", 
+      "game_time": "2012-01-01 16:15:00", 
+      "is_active": true, 
+      "number": 15, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "OAK"
+    }
+  }, 
+  {
+    "pk": "2011-17-16", 
+    "model": "nfl.game", 
+    "fields": {
+      "week": "2011-17", 
+      "away": "KC", 
+      "game_time": "2012-01-01 16:15:00", 
+      "is_active": true, 
+      "number": 16, 
+      "updated_time": "2011-06-15 18:28:00", 
+      "created_time": "2011-06-15 18:28:00", 
+      "home": "DEN"
+    }
+  }
+]

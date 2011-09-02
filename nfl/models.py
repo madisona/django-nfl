@@ -1,5 +1,5 @@
 
-from django.core.validators import RegexValidator
+from django.core.validators import RegexValidator, MinValueValidator, MaxValueValidator
 from django.core.cache import cache
 from django.db import models
 from django.utils.encoding import force_unicode
@@ -74,3 +74,44 @@ class Team(TimestampMixin):
             cache.set(cache_key, all_teams, timeout=2.6*1e6)
         return all_teams
 
+class Week(TimestampMixin):
+    primary_key = models.CharField(primary_key=True, max_length=7,
+        editable=False, blank=True, unique=True, auto_created=True)
+    season = models.ForeignKey(Season, related_name="weeks")
+    number = models.SmallIntegerField(validators=[MinValueValidator(1), MaxValueValidator(21)])
+    first_game = models.DateTimeField()
+    last_game = models.DateTimeField()
+
+    class Meta(object):
+        ordering = ['number']
+
+    def save(self, **kwargs):
+        self.primary_key = "%s-%s" % (self.season.pk, self.number)
+        super(Week, self).save(**kwargs)
+
+    @classmethod
+    def get_by_season(cls, season):
+        return cls.objects.filter(season=season)
+
+class Game(TimestampMixin):
+    """
+    Game Matchup
+    """
+    primary_key = models.CharField(primary_key=True, max_length=10,
+        editable=False, blank=True, unique=True, auto_created=True)
+    week = models.ForeignKey(Week, related_name="games")
+    number = models.SmallIntegerField(validators=[MinValueValidator(1), MaxValueValidator(16)])
+    home = models.ForeignKey(Team, verbose_name="Home Team", related_name="home_games")
+    away = models.ForeignKey(Team, verbose_name="Away Team", related_name="away_games")
+    game_time = models.DateTimeField()
+    is_active = models.BooleanField(default=True)
+
+    class Meta(object):
+        ordering = ['week__number', '-game_time']
+
+    def __unicode__(self):
+        return "%s vs. %s" % (self.home_id, self.away_id)
+    
+    def save(self, **kwargs):
+        self.primary_key = "%s-%s" % (self.week.pk, self.number)
+        super(Game, self).save(**kwargs)
