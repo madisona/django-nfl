@@ -33,7 +33,8 @@ DATABASES = {
 # https://docs.djangoproject.com/en/dev/topics/cache/?from=olddocs#dummy-caching-for-development
 CACHES = {
     'default': {
-        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+#        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
     }
 }
 

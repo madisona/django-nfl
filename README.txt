@@ -8,3 +8,10 @@ Because the season doesn't change (much) we make use of caching when
 getting common things like teams and the schedule for a week, etc...
 
 NOTE: This is a work in progress... it's not functional or useful now.
+  - All week game times are Eastern time
+
+
+todo:
+ - Store winners
+ - view to submit winners
+ 

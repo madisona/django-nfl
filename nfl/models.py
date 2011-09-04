@@ -1,9 +1,9 @@
 
 from django.core.validators import RegexValidator, MinValueValidator, MaxValueValidator
-from django.core.cache import cache
 from django.db import models
 from django.utils.encoding import force_unicode
 
+from nfl import tz, utils
 
 class TimestampMixin(models.Model):
     created_time = models.DateTimeField(auto_now_add=True)
@@ -67,12 +67,8 @@ class Team(TimestampMixin):
 
     @classmethod
     def all_teams(cls):
-        cache_key = 'all_teams'
-        all_teams = cache.get(cache_key)
-        if all_teams is None:
-            all_teams = list(cls.objects.filter(is_active=True))
-            cache.set(cache_key, all_teams, timeout=2.6*1e6)
-        return all_teams
+        qs = cls.objects.filter(is_active=True)
+        return utils.get_or_add_qs('all_teams', qs, timeout=2.6*1e6)
 
 class Week(TimestampMixin):
     primary_key = models.CharField(primary_key=True, max_length=7,
@@ -90,12 +86,50 @@ class Week(TimestampMixin):
         super(Week, self).save(**kwargs)
 
     @classmethod
-    def get_by_season(cls, season):
+    def season_weeks(cls, season):
         return cls.objects.filter(season=season)
+
+    @classmethod
+    def active_weeks(cls):
+        qs = cls.objects.filter(season__is_active=True)
+        return utils.get_or_add_qs('active_weeks', qs, timeout=2.6*1e6)
+
+    @classmethod
+    def current_week(cls, week_key=None, date_trigger="first_game", delay=False):
+        """
+        Returns current week based on current time. Currently makes a
+        big assumption that the first_game is stored in Eastern Time.
+
+        week_key: if provided will always return that week
+        date_trigger: can either be first_game or last_game. used to compare
+            with current time
+        delay: delay by one week
+
+        By default this method returns the upcoming week. Sometimes you might
+        want a page displaying previous week's results, so you might want to
+        delay the week returned so you show last week results longer.
+        """
+        if week_key:
+            return cls.objects.get(pk=week_key)
+        return cls._find_current_week(date_trigger, delay)
+
+    @classmethod
+    def _find_current_week(cls, date_trigger, delay):
+        assert date_trigger in ("first_game", "last_game")
+        current_time = tz.get_current_time()
+
+        current_week = None
+        season_weeks = cls.active_weeks()
+        for cnt, week in enumerate(season_weeks):
+            current_week = season_weeks[cnt - 1] if delay and cnt > 0 else week
+            if current_time < getattr(week, date_trigger).replace(tzinfo=tz.EASTERN):
+                break
+        return current_week
+
 
 class Game(TimestampMixin):
     """
-    Game Matchup
+    Individual Game Matchup
     """
     primary_key = models.CharField(primary_key=True, max_length=10,
         editable=False, blank=True, unique=True, auto_created=True)
@@ -107,7 +141,7 @@ class Game(TimestampMixin):
     is_active = models.BooleanField(default=True)
 
     class Meta(object):
-        ordering = ['week__number', '-game_time']
+        ordering = ['game_time']
 
     def __unicode__(self):
         return "%s vs. %s" % (self.home_id, self.away_id)

@@ -2,9 +2,11 @@
 import datetime
 
 from django.core.exceptions import ValidationError
+from django.core.cache import get_cache, cache
 from django.test import TestCase
 
-from nfl import models
+from nfl import models, tz
+from nfl import utils
 
 class SeasonModelTests(TestCase):
 
@@ -73,14 +75,24 @@ class TeamModelTests(TestCase):
 
 class WeekModelTests(TestCase):
 
-    def test_gets_by_season(self):
+    def test_gets_season_weeks(self):
         old_season = models.Season.objects.create(year="2010")
         season = models.Season.objects.create(year="2011")
         today = datetime.datetime.today()
         current_week = models.Week.objects.create(number=1, season=season, first_game=today, last_game=today)
         models.Week.objects.create(number=1, season=old_season, first_game=today, last_game=today)
 
-        weeks = models.Week.get_by_season(season)
+        weeks = models.Week.season_weeks(season)
+        self.assertEqual([current_week], list(weeks))
+
+    def test_gets_active_season_weeks(self):
+        old_season = models.Season.objects.create(year="2010")
+        season = models.Season.objects.create(year="2011", is_active=True)
+        today = datetime.datetime.today()
+        current_week = models.Week.objects.create(number=1, season=season, first_game=today, last_game=today)
+        models.Week.objects.create(number=1, season=old_season, first_game=today, last_game=today)
+
+        weeks = models.Week.active_weeks()
         self.assertEqual([current_week], list(weeks))
 
     def test_uses_season_key_and_number_as_primary_key(self):
@@ -105,78 +117,79 @@ class WeekModelTests(TestCase):
             week.full_clean()
         self.assertEqual("Ensure this value is less than or equal to 21.", e.exception.messages[0])
 
-#    def test_returns_current_week_when_week_key_give(self):
-#        season = self.make_active_season()
-#        today = datetime.datetime.now()
-#        key = "2011-1"
-#        week = models.Week.objects.create(season=season, number=1, first_game=today, last_game=today, appengine_key=key)
-#
-#        current_week = models.Week.objects.get_current_week(key)
-#        self.assertEqual(week, current_week)
-#
-#    def test_returns_current_week_when_before_first_week(self):
-#        season = self.make_active_season()
-#        today = get_current_time()
-#        tomorrow = today + datetime.timedelta(days=1)
-#        next_week = tomorrow + datetime.timedelta(days=7)
-#
-#        week1 = models.Week.objects.create(number=1, first_game=tomorrow, last_game=tomorrow, season=season)
-#        models.Week.objects.create(number=2, first_game=next_week, last_game=next_week, season=season)
-#
-#        current_week = models.Week.objects.get_current_week(None, datetype="first_game")
-#        self.assertEqual(week1, current_week)
-#
-#    def test_finds_current_week_by_first_game(self):
-#        season = self.make_active_season()
-#        today = get_current_time()
-#        yesterday = today - datetime.timedelta(days=1)
-#        next_week = today + datetime.timedelta(days=7)
-#        two_weeks = today + datetime.timedelta(days=14)
-#
-#        models.Week.objects.create(number=1, first_game=yesterday, last_game=yesterday, season=season)
-#        week = models.Week.objects.create(number=2, first_game=next_week, last_game=next_week, season=season)
-#        models.Week.objects.create(number=3, first_game=two_weeks, last_game=two_weeks, season=season)
-#
-#        current_week = models.Week.objects.get_current_week(None, datetype="first_game")
-#        self.assertEqual(week, current_week)
-#
-#    def test_finds_current_week_by_last_game(self):
-#        season = self.make_active_season()
-#        today = get_current_time()
-#        yesterday = today - datetime.timedelta(days=1)
-#        next_week = today + datetime.timedelta(days=7)
-#        two_weeks = today + datetime.timedelta(days=14)
-#
-#        models.Week.objects.create(number=1, first_game=yesterday, last_game=yesterday, season=season)
-#        week = models.Week.objects.create(number=2, first_game=yesterday, last_game=next_week, season=season)
-#        models.Week.objects.create(number=3, first_game=two_weeks, last_game=two_weeks, season=season)
-#
-#        current_week = models.Week.objects.get_current_week(None, datetype="last_game")
-#        self.assertEqual(week, current_week)
-#
-#    def test_returns_last_season_week_when_time_after_all_weeks(self):
-#        season = self.make_active_season()
-#        today = get_current_time()
-#        yesterday = today - datetime.timedelta(days=1)
-#        last_week = today - datetime.timedelta(days=7)
-#
-#        models.Week.objects.create(number=1, first_game=last_week, last_game=last_week, season=season)
-#        week = models.Week.objects.create(number=2, first_game=yesterday, last_game=yesterday, season=season)
-#
-#        current_week = models.Week.objects.get_current_week(None)
-#        self.assertEqual(week, current_week)
-#
-#    def test_returns_one_week_behind_when_delay_flag_set(self):
-#        season = self.make_active_season()
-#        today = get_current_time()
-#        yesterday = today - datetime.timedelta(days=1)
-#        next_week = today + datetime.timedelta(days=7)
-#
-#        week = models.Week.objects.create(number=1, first_game=yesterday, last_game=yesterday, season=season)
-#        models.Week.objects.create(number=2, first_game=next_week, last_game=next_week, season=season)
-#
-#        current_week = models.Week.objects.get_current_week(None, delay=True)
-#        self.assertEqual(week, current_week)
+    def test_current_week_returns_week_specified_when_week_key_give(self):
+        season = models.Season.objects.create(year="2011")
+        today = datetime.datetime.now()
+        key = "2011-1"
+        week = models.Week.objects.create(season=season, number=1, first_game=today, last_game=today)
+
+        current_week = models.Week.current_week(key)
+        self.assertEqual(week, current_week)
+
+    def test_current_week_returns_week_one_when_before_first_week(self):
+        season = models.Season.objects.create(year="2011", is_active=True)
+
+        today = tz.get_current_time()
+        tomorrow = today + datetime.timedelta(days=1)
+        next_week = tomorrow + datetime.timedelta(days=7)
+
+        week1 = models.Week.objects.create(number=1, first_game=tomorrow, last_game=tomorrow, season=season)
+        models.Week.objects.create(number=2, first_game=next_week, last_game=next_week, season=season)
+
+        current_week = models.Week.current_week(date_trigger="first_game")
+        self.assertEqual(week1, current_week)
+
+    def test_finds_current_week_by_first_game(self):
+        season = models.Season.objects.create(year="2011", is_active=True)
+        today = tz.get_current_time()
+        yesterday = today - datetime.timedelta(days=1)
+        next_week = today + datetime.timedelta(days=7)
+        two_weeks = today + datetime.timedelta(days=14)
+
+        models.Week.objects.create(number=1, first_game=yesterday, last_game=yesterday, season=season)
+        week = models.Week.objects.create(number=2, first_game=next_week, last_game=next_week, season=season)
+        models.Week.objects.create(number=3, first_game=two_weeks, last_game=two_weeks, season=season)
+
+        current_week = models.Week.current_week(date_trigger="first_game")
+        self.assertEqual(week, current_week)
+
+    def test_finds_current_week_by_last_game(self):
+        season = models.Season.objects.create(year="2011", is_active=True)
+        today = tz.get_current_time()
+        yesterday = today - datetime.timedelta(days=1)
+        next_week = today + datetime.timedelta(days=7)
+        two_weeks = today + datetime.timedelta(days=14)
+
+        models.Week.objects.create(number=1, first_game=yesterday, last_game=yesterday, season=season)
+        week = models.Week.objects.create(number=2, first_game=yesterday, last_game=next_week, season=season)
+        models.Week.objects.create(number=3, first_game=two_weeks, last_game=two_weeks, season=season)
+
+        current_week = models.Week.current_week(date_trigger="last_game")
+        self.assertEqual(week, current_week)
+
+    def test_returns_last_season_week_when_time_after_all_weeks(self):
+        season = models.Season.objects.create(year="2011", is_active=True)
+        today = tz.get_current_time()
+        yesterday = today - datetime.timedelta(days=1)
+        last_week = today - datetime.timedelta(days=7)
+
+        models.Week.objects.create(number=1, first_game=last_week, last_game=last_week, season=season)
+        week = models.Week.objects.create(number=2, first_game=yesterday, last_game=yesterday, season=season)
+
+        current_week = models.Week.current_week()
+        self.assertEqual(week, current_week)
+
+    def test_returns_one_week_behind_when_delay_flag_set(self):
+        season = models.Season.objects.create(year="2011", is_active=True)
+        today = tz.get_current_time()
+        yesterday = today - datetime.timedelta(days=1)
+        next_week = today + datetime.timedelta(days=7)
+
+        week = models.Week.objects.create(number=1, first_game=yesterday, last_game=yesterday, season=season)
+        models.Week.objects.create(number=2, first_game=next_week, last_game=next_week, season=season)
+
+        current_week = models.Week.current_week(delay=True)
+        self.assertEqual(week, current_week)
 
 class GameModelTests(TestCase):
 
@@ -201,4 +214,79 @@ class GameModelTests(TestCase):
         with self.assertRaises(ValidationError) as e:
             game.full_clean()
         self.assertEqual("Ensure this value is less than or equal to 16.", e.exception.messages[0])
-        
+
+class TimeZoneTests(TestCase):
+
+    def test_changes_utc_to_central_standard(self):
+        utc_time = datetime.datetime(2011, 3, 12, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 3, 12, tzinfo=tz.CENTRAL) - datetime.timedelta(hours=6)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.CENTRAL))
+
+        utc_time = datetime.datetime(2011, 11, 7, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 11, 7, tzinfo=tz.CENTRAL) - datetime.timedelta(hours=6)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.CENTRAL))
+
+    def test_changes_utc_to_central_daylight(self):
+        utc_time = datetime.datetime(2011, 3, 14, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 3, 14, tzinfo=tz.CENTRAL) - datetime.timedelta(hours=5)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.CENTRAL))
+
+        utc_time = datetime.datetime(2011, 11, 5, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 11, 5, tzinfo=tz.CENTRAL) - datetime.timedelta(hours=5)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.CENTRAL))
+
+    def test_changes_utc_to_eastern_standard(self):
+        utc_time = datetime.datetime(2011, 3, 12, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 3, 12, tzinfo=tz.EASTERN) - datetime.timedelta(hours=5)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.EASTERN))
+
+        utc_time = datetime.datetime(2011, 11, 7, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 11, 7, tzinfo=tz.EASTERN) - datetime.timedelta(hours=5)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.EASTERN))
+
+    def test_changes_utc_to_eastern_daylight(self):
+        utc_time = datetime.datetime(2011, 3, 14, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 3, 14, tzinfo=tz.EASTERN) - datetime.timedelta(hours=4)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.EASTERN))
+
+        utc_time = datetime.datetime(2011, 11, 5, tzinfo=tz.UTC)
+        expected_time = datetime.datetime(2011, 11, 5, tzinfo=tz.EASTERN) - datetime.timedelta(hours=4)
+        self.assertEqual(expected_time, utc_time.astimezone(tz.EASTERN))
+
+    def test_dst_trigger_always_returns_sunday(self):
+        sunday = datetime.datetime(2011, 9, 4) # this is a sunday
+        dst_trigger = tz.StandardAmericanZone(0, 'Test')._get_next_sunday(sunday)
+        self.assertEqual(4, dst_trigger.day)
+        self.assertEqual(6, dst_trigger.weekday())
+
+        tuesday = datetime.datetime(2011, 9, 6) # this is a sunday
+        dst_trigger = tz.StandardAmericanZone(0, 'Test')._get_next_sunday(tuesday)
+        self.assertEqual(11, dst_trigger.day)
+        self.assertEqual(6, dst_trigger.weekday())
+
+    def test_dst_trigger_always_returns_sunday_when_getting_next_sunday(self):
+        sunday = datetime.datetime(2011, 9, 4) # this is a sunday
+        dst_trigger = tz.StandardAmericanZone(0, 'Test')._get_next_sunday(sunday, 7)
+        self.assertEqual(11, dst_trigger.day)
+        self.assertEqual(6, dst_trigger.weekday())
+
+        tuesday = datetime.datetime(2011, 9, 6) # this is a sunday
+        dst_trigger = tz.StandardAmericanZone(0, 'Test')._get_next_sunday(tuesday, 7)
+        self.assertEqual(18, dst_trigger.day)
+        self.assertEqual(6, dst_trigger.weekday())
+
+class CacheUtilsTests(TestCase):
+    """
+    This test will fail if you don't have a cache set up in settings.py
+    or if you have DummyCache enabled.
+    """
+
+    def test_get_or_add_qs_evaluates_list_and_sets_value_when_none_present(self):
+        #Test when no value is set
+        utils.get_or_add_qs('a','a')
+        self.assertEqual(cache.get('a'),['a'])
+
+    def test_get_or_add_qs_returns_value_when_key_already_present(self):
+        #Test an existing value
+        cache.set('b','b')
+        self.assertEqual(utils.get_or_add_qs('b','c'),'b')
