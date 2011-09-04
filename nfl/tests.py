@@ -215,6 +215,34 @@ class GameModelTests(TestCase):
             game.full_clean()
         self.assertEqual("Ensure this value is less than or equal to 16.", e.exception.messages[0])
 
+class GameMixinTests(TestCase):
+
+    def test_get_team_returns_team_for_game_number(self):
+        game_collection = models.GamesMixin(game1="BUF")
+        team = game_collection.get_team(1)
+        self.assertTrue(isinstance(team, models.Team))
+        self.assertEqual("BUF", team.pk)
+
+    def test_get_team_keeps_teams_dictionary_on_instance(self):
+        game_collection = models.GamesMixin(game2="BUF")
+        team_dict = dict((t.pk, t) for t in models.Team.all_teams())
+
+        self.assertEqual(None, game_collection.teams)
+        game_collection.get_team(2)
+        self.assertEqual(team_dict, game_collection.teams)
+
+class ResultMixinTests(TestCase):
+
+    def test_win_percent_returns_value_of_100(self):
+        result = models.ResultMixin(total_wins=9, total_losses=1)
+        self.assertEqual(90, result.win_percent)
+
+        self.assertEqual(66.67, round(models.ResultMixin(total_wins=2, total_losses=1).win_percent, 2))
+
+    def test_win_percent_returns_none_when_no_wins_or_losses(self):
+        result = models.ResultMixin(total_wins=0, total_losses=0)
+        self.assertEqual(None, result.win_percent)
+
 class TimeZoneTests(TestCase):
 
     def test_changes_utc_to_central_standard(self):

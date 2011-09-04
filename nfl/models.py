@@ -12,6 +12,65 @@ class TimestampMixin(models.Model):
     class Meta(object):
         abstract = True
 
+class GamesMixin(models.Model):
+    """
+    Each week there are up to sixteen games. Some weeks have byes so
+    there not every game can be required.
+    Games mixin only stores the team key for efficiency and just looks
+    up the actual team object for the team chosen when necessary.
+    """
+    teams = None
+
+    game1 = models.CharField(max_length=3, blank=True)
+    game2 = models.CharField(max_length=3, blank=True)
+    game3 = models.CharField(max_length=3, blank=True)
+    game4 = models.CharField(max_length=3, blank=True)
+    game5 = models.CharField(max_length=3, blank=True)
+    game6 = models.CharField(max_length=3, blank=True)
+    game7 = models.CharField(max_length=3, blank=True)
+    game8 = models.CharField(max_length=3, blank=True)
+    game9 = models.CharField(max_length=3, blank=True)
+    game10 = models.CharField(max_length=3, blank=True)
+    game11 = models.CharField(max_length=3, blank=True)
+    game12 = models.CharField(max_length=3, blank=True)
+    game13 = models.CharField(max_length=3, blank=True)
+    game14 = models.CharField(max_length=3, blank=True)
+    game15 = models.CharField(max_length=3, blank=True)
+    game16 = models.CharField(max_length=3, blank=True)
+
+    created_time = models.DateTimeField(auto_now_add=True)
+    updated_time = models.DateTimeField(auto_now=True)
+
+    class Meta(object):
+        abstract = True
+
+    def get_team(self, game_number):
+        if not self.teams:
+            self.teams = dict((t.pk, t) for t in Team.all_teams())
+        team_key = getattr(self, 'game%s' % game_number)
+        return self.teams.get(team_key)
+
+class ResultMixin(models.Model):
+    """
+    Mixin for holding results data for a week
+    """
+    wins = models.SmallIntegerField(default=0)
+    losses = models.SmallIntegerField(default=0)
+    total_wins = models.SmallIntegerField(default=0)
+    total_losses = models.SmallIntegerField(default=0)
+
+    created_time = models.DateTimeField(auto_now_add=True)
+    updated_time = models.DateTimeField(auto_now=True)
+
+    class Meta(object):
+        abstract = True
+
+    @property
+    def win_percent(self):
+        total_games = self.total_wins + self.total_losses
+        if total_games > 0:
+            return float(self.total_wins)/total_games * 100
+
 class Division(TimestampMixin):
     AFC, NFC = "AFC", "NFC"
     CONFERENCES = ((AFC, AFC), (NFC, NFC))
@@ -81,6 +140,9 @@ class Week(TimestampMixin):
     class Meta(object):
         ordering = ['number']
 
+    def __unicode__(self):
+        return u"Week %s" % self.number
+
     def save(self, **kwargs):
         self.primary_key = "%s-%s" % (self.season.pk, self.number)
         super(Week, self).save(**kwargs)
@@ -149,3 +211,23 @@ class Game(TimestampMixin):
     def save(self, **kwargs):
         self.primary_key = "%s-%s" % (self.week.pk, self.number)
         super(Game, self).save(**kwargs)
+
+class Winner(GamesMixin):
+    week = models.ForeignKey(Week, related_name='winners')
+
+    class Meta(object):
+        ordering = ['week__number']
+        
+    def __unicode__(self):
+        return unicode(self.week)
+
+class TeamResult(ResultMixin):
+    """
+    Stores team result by week on a running total basis.
+    """
+    team = models.ForeignKey(Team)
+    week = models.ForeignKey(Week, related_name="team_results")
+
+    def __unicode__(self):
+        return "%s (%s - %s)" % (self.team_id, self.total_wins, self.total_losses)
+    

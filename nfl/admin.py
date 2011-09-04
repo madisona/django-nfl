@@ -29,8 +29,24 @@ class GameAdmin(admin.ModelAdmin):
         return obj.week.pk
     week_pk.short_description = "Week Number"
 
+class WinnerAdmin(admin.ModelAdmin):
+    fields = ('week',
+        'game1', 'game2', 'game3', 'game4',
+        'game5', 'game6', 'game7', 'game8',
+        'game9', 'game10', 'game11', 'game12',
+        'game13', 'game14', 'game15', 'game16',
+    )
+    list_filter = ['week__season__year']
+
+class TeamResultAdmin(admin.ModelAdmin):
+    list_filter = ('week', 'week__season__year')
+    fields = ('week', 'team', 'wins', 'losses', 'total_wins', 'total_losses')
+
 admin.site.register(models.Division, DivisionAdmin)
 admin.site.register(models.Season)
 admin.site.register(models.Team, TeamAdmin)
 admin.site.register(models.Week, WeekAdmin)
 admin.site.register(models.Game, GameAdmin)
+
+admin.site.register(models.Winner, WinnerAdmin)
+admin.site.register(models.TeamResult, TeamResultAdmin)
