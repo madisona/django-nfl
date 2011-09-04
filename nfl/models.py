@@ -212,6 +212,12 @@ class Game(TimestampMixin):
         self.primary_key = "%s-%s" % (self.week.pk, self.number)
         super(Game, self).save(**kwargs)
 
+    @classmethod
+    def week_schedule(cls, week):
+        cache_key = "%s-schedule" % week.pk
+        qs = cls.objects.filter(week=week)
+        return utils.get_or_add_qs(cache_key, qs)
+
 class Winner(GamesMixin):
     week = models.ForeignKey(Week, related_name='winners')
 

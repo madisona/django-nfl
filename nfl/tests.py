@@ -215,6 +215,15 @@ class GameModelTests(TestCase):
             game.full_clean()
         self.assertEqual("Ensure this value is less than or equal to 16.", e.exception.messages[0])
 
+    def test_week_schedule_returns_games_for_week(self):
+        week2 = models.Week.objects.create(season=self.season, number=2, first_game=self.today, last_game=self.today)
+
+        game1 = models.Game.objects.create(week=self.week, number=1, game_time=self.today, home=self.team, away=self.team)
+        game2 = models.Game.objects.create(week=self.week, number=2, game_time=self.today, home=self.team, away=self.team)
+        models.Game.objects.create(week=week2, number=1, game_time=self.today, home=self.team, away=self.team)
+
+        self.assertEqual([game1, game2], models.Game.week_schedule(self.week))
+
 class GameMixinTests(TestCase):
 
     def test_get_team_returns_team_for_game_number(self):
